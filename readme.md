@@ -1,3 +1,14 @@
+## Project Setup
+
+ - Take git clone: git clone https://github.com/saurabhvedwal/challenge.git
+ - Go to project directory: cd challenge/
+ - Load Vendor Files: composer install
+ - Copy .env.example file as .env: cp .env.example .env
+ - Connect with the database using .env file: Add local Database credentials (Need to create a database First)
+ - Migrate database with seeds: php artisan migrate --seed
+ - Start Application server: php artisan serve
+ - Open web browser: http://127.0.0.1:8000/
+
 <p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
 
 <p align="center">
